@@ -4,10 +4,12 @@ import uuid
 import re
 import unicodedata
 from time import sleep
+import sys
 
 # === CONFIGURACIÓN ===
 ruta_dois = "Escritorio/ETLProjects/PickingPublications/orcid_dois.json"
 salida_ndjson = "Escritorio/ETLProjects/PickingPublications/publicaciones_sanity.ndjson"
+reporte_txt = "Escritorio/ETLProjects/PickingPublications/reporte_sociecos.txt"
 
 # === MAPEO DE VARIANTES DE NOMBRES A _id EN SANITY ===
 name_to_id_variants = {
@@ -65,7 +67,7 @@ name_to_id_variants = {
         "Youssra El Ghafraoui", "El Ghafraoui, Y."
     ],
     "ac7b676c-707a-4ba5-9687-8098d29efa6c": [
-        "Adam Eckersell", 
+        "Adam Eckersell"
     ],
     "b7f6c792-d5d7-405e-841c-1a67ba3e9090": [
         "Maria D. Lopez Rodriguez", "López-Rodríguez, M. D.", "López-Rodriguez, M. D.",
@@ -84,6 +86,20 @@ name_to_id_variants = {
         "Caryn C. Vaughn", "Vaughn, C. C."
     ]
 }
+
+# === CLASE PARA DUPLICAR LA SALIDA ===
+class Tee(object):
+    def __init__(self, *files):
+        self.files = files
+
+    def write(self, obj):
+        for f in self.files:
+            f.write(obj)
+            f.flush()
+
+    def flush(self):
+        for f in self.files:
+            f.flush()
 
 # === FUNCIONES AUXILIARES ===
 def normalize_author_name(name: str) -> str:
@@ -106,68 +122,77 @@ def get_crossref_data(doi: str) -> dict:
     else:
         raise Exception(f"{response.status_code} - {response.text}")
 
-# === LECTURA DE DOIS ===
-with open(ruta_dois, "r", encoding="utf-8") as f:
-    dois = json.load(f)
+# === INICIAR REDIRECCIÓN DE PRINT ===
+with open(reporte_txt, "w", encoding="utf-8") as f_reporte:
+    original_stdout = sys.stdout
+    sys.stdout = Tee(sys.stdout, f_reporte)
 
-# === PROCESAR Y GUARDAR PUBLICACIONES ===
-with open(salida_ndjson, "w", encoding="utf-8") as f_out:
-    for idx, doi in enumerate(sorted(dois), 1):
-        try:
-            print(f"[{idx}/{len(dois)}] Procesando DOI: {doi}")
-            data = get_crossref_data(doi)
+    try:
+        # === LECTURA DE DOIS ===
+        with open(ruta_dois, "r", encoding="utf-8") as f:
+            dois = json.load(f)
 
-            # Procesar autores
-            authors = []
-            for a in data.get("author", []):
-                given = a.get("given", "")
-                family = a.get("family", "")
-                initials = " ".join([n[0] + "." for n in given.split() if n])
-                apa_name = f"{family}, {initials}".strip()
+        # === PROCESAR Y GUARDAR PUBLICACIONES ===
+        with open(salida_ndjson, "w", encoding="utf-8") as f_out:
+            for idx, doi in enumerate(sorted(dois), 1):
+                try:
+                    print(f"[{idx}/{len(dois)}] Procesando DOI: {doi}")
+                    data = get_crossref_data(doi)
 
-                entry = {
-                    "_type": "author",
-                    "_key": uuid.uuid4().hex[:12],
-                    "name": apa_name
-                }
+                    # Procesar autores
+                    authors = []
+                    for a in data.get("author", []):
+                        given = a.get("given", "")
+                        family = a.get("family", "")
+                        initials = " ".join([n[0] + "." for n in given.split() if n])
+                        apa_name = f"{family}, {initials}".strip()
 
-                author_name_normalized = normalize_author_name(apa_name)
-                for ref_id, variants in name_to_id_variants.items():
-                    if any(normalize_author_name(v) in author_name_normalized for v in variants):
-                        entry["researcherRef"] = {
-                            "_type": "reference",
-                            "_ref": ref_id
+                        entry = {
+                            "_type": "author",
+                            "_key": uuid.uuid4().hex[:12],
+                            "name": apa_name
                         }
-                        print(f"   🔗 Vinculado a: {apa_name} → {ref_id}")
-                        break
 
-                authors.append(entry)
+                        author_name_normalized = normalize_author_name(apa_name)
+                        for ref_id, variants in name_to_id_variants.items():
+                            if any(normalize_author_name(v) in author_name_normalized for v in variants):
+                                entry["researcherRef"] = {
+                                    "_type": "reference",
+                                    "_ref": ref_id
+                                }
+                                print(f"   🔗 Vinculado a: {apa_name} → {ref_id}")
+                                break
 
-            doi_id = "doi-" + re.sub(r"[^a-zA-Z0-9_-]", "_", data.get("DOI"))
-            pub = {
-                "_id": doi_id,
-                "_type": "publication",
-                "title": data.get("title", [""])[0],
-                "authors": authors,
-                "year": to_int_or_none(data.get("issued", {}).get("date-parts", [[None]])[0][0]),
-                "journal": data.get("container-title", [""])[0],
-                "doi": f"https://doi.org/{data.get('DOI')}"
-            }
+                        authors.append(entry)
 
-            if data.get("volume"):
-                pub["volume"] = to_int_or_none(data.get("volume"))
-            if data.get("issue"):
-                pub["issue"] = to_int_or_none(data.get("issue"))
-            if data.get("page"):
-                if "-" in str(data.get("page")):
-                    pub["pages"] = data.get("page")
-                else:
-                    pub["articleNumber"] = data.get("page")
+                    doi_id = "doi-" + re.sub(r"[^a-zA-Z0-9_-]", "_", data.get("DOI"))
+                    pub = {
+                        "_id": doi_id,
+                        "_type": "publication",
+                        "title": data.get("title", [""])[0],
+                        "authors": authors,
+                        "year": to_int_or_none(data.get("issued", {}).get("date-parts", [[None]])[0][0]),
+                        "journal": data.get("container-title", [""])[0],
+                        "doi": f"https://doi.org/{data.get('DOI')}"
+                    }
 
-            f_out.write(json.dumps(pub, ensure_ascii=False) + "\n")
-            sleep(1)
+                    if data.get("volume"):
+                        pub["volume"] = to_int_or_none(data.get("volume"))
+                    if data.get("issue"):
+                        pub["issue"] = to_int_or_none(data.get("issue"))
+                    if data.get("page"):
+                        if "-" in str(data.get("page")):
+                            pub["pages"] = data.get("page")
+                        else:
+                            pub["articleNumber"] = data.get("page")
 
-        except Exception as e:
-            print(f"❌ Error con DOI {doi}: {e}")
+                    f_out.write(json.dumps(pub, ensure_ascii=False) + "\n")
+                    sleep(1)
 
-print("\n✅ Fichero NDJSON generado correctamente.")
+                except Exception as e:
+                    print(f"❌ Error con DOI {doi}: {e}")
+
+        print("\n✅ Fichero NDJSON generado correctamente.")
+
+    finally:
+        sys.stdout = original_stdout  # Restaurar stdout aunque haya error
