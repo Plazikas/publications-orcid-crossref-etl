@@ -1,0 +1,132 @@
+10.1002/ece3.9630 — Spatial models can improve the experimental design of field‐based transplant gardens by preventing bias due to neighborhood crowding
+10.1002/ecs2.4242 — Mapping socio‐ecological systems in Idaho: Spatial patterns and analytical considerations
+10.1002/ecs2.4330 — Drone imagery protocols to map vegetation are transferable between dryland sites across an elevational gradient
+10.1002/fee.2806 — Global mapping of social–ecological systems science in conservation conflict research
+10.1002/ldr.4134 — Water‐saving techniques for restoring desertified lands: Some lessons from the field
+10.1002/pan3.10158 — Social dynamics of values, taboos and perceived threats around sacred groves in Kurdistan, Iran
+10.1002/pan3.10607 — The role of nature's contributions to people in sustaining international trade of agricultural products
+10.1007/s00267-017-0929-x — Exploring Institutional Mechanisms for Scientific Input into the Management Cycle of the National Protected Area Network of Peru: Gaps and Opportunities
+10.1007/s10113-023-02125-z — Narratives of land abandonment in a biocultural landscape of Spain
+10.1007/s10457-022-00771-6 — Collaborative agroforestry to mitigate wildfires in Extremadura, Spain: land manager motivations and perceptions of outcomes, benefits, and policy needs
+10.1007/s10980-014-0020-4 — Modeling spatial distribution of European badger in arid landscapes: an ecosystem functioning approach
+10.1007/s10980-014-0032-0 — From supply to social demand: a landscape-scale analysis of the water regulation service
+10.1007/s10980-019-00816-9 — Exploring sense of place across cultivated lands through public participatory mapping
+10.1007/s10980-019-00826-7 — Integrating supply and demand in ecosystem service bundles characterization across Mediterranean transformed landscapes
+10.1007/s10980-019-00852-5 — Identifying win–win situations in agricultural landscapes: an integrated ecosystem services assessment for Spain
+10.1007/s10980-020-01107-4 — Scientific and local ecological knowledge, shaping perceptions towards protected areas and related ecosystem services
+10.1007/s10980-020-01168-5 — Linking food systems and landscape sustainability in the Mediterranean region
+10.1007/s10980-023-01621-1 — Forecasting natural regeneration of sagebrush after wildfires using population models and spatial matching
+10.1007/s11625-020-00806-w — Exploring land-use histories of tree-crop landscapes: a cross-site comparison in the Mediterranean Basin
+10.1007/s11625-021-01048-0 — A framework for assessing coupling and de-coupling trajectories in river social-ecological systems
+10.1007/s11625-023-01343-y — The role of emotions in human–nature connectedness within Mediterranean landscapes in Spain
+10.1007/s11625-024-01538-x — Emotional attachment and philosophical worldviews explain human connectedness to nature in abandoned rural Spain
+10.1007/s11625-024-01584-5 — Impact of land transformation, management and governance on subjective wellbeing across social–ecological systems
+10.1007/s13280-020-01323-x — An interdisciplinary assessment of private conservation areas in the Western United States
+10.1007/s13280-025-02168-y — Exploring biocultural diversity: A systematic analysis and refined classification to inform decisions on conservation and sustainability
+10.1007/s13364-016-0269-x — Landscape influence on the feeding habits of European badger (Meles meles) in arid Spain
+10.1016/j.agee.2023.108435 — Assessing high quality agricultural lands through the ecosystem services lens: Insights from a rapidly urbanizing agricultural region in the western United States
+10.1016/j.apgeog.2015.02.012 — Do protected areas networks ensure the supply of ecosystem services? Spatial patterns of two nature reserve systems in semi-arid Spain
+10.1016/j.biocon.2019.07.002 — Human-carnivore relations: A systematic review
+10.1016/j.biocon.2024.110654 — Hunting regulations as a conservation tool: Hunters' views on the European turtle-dove moratorium
+10.1016/j.biocon.2024.110731 — Hotter, drier climate influences tropical tree cover loss and promotes bracken fern dominance within arrested successional patches in Andean Cloud Forests
+10.1016/j.cosust.2017.09.005 — Interconnected place-based social–ecological research can inform global sustainability
+10.1016/j.cosust.2023.101344 — Five steps towards transformative valuation of nature
+10.1016/j.cosust.2023.101345 — The pitfalls of plural valuation
+10.1016/j.cosust.2023.101350 — Whose values count? A review of the nature valuation studies with a focus on justice
+10.1016/j.ecolind.2017.12.036 — Assessment of ecosystem functioning from space: Advancements in the Habitats Directive implementation
+10.1016/j.ecolind.2022.108693 — Rethinking ecosystem service indicators for their application to intermittent rivers
+10.1016/j.ecoser.2014.11.006 — Collaborative mapping of ecosystem services: The role of stakeholders׳ profiles
+10.1016/j.ecoser.2017.10.011 — When we cannot have it all: Ecosystem services trade-offs in the context of spatial planning
+10.1016/j.ecoser.2022.101436 — Uncovering spatial patterns of ecosystem services and biodiversity through local communities' preferences and perceptions
+10.1016/j.envsci.2015.01.013 — Science–policy interface for addressing environmental problems in arid Spain
+10.1016/j.envsci.2015.10.001 — Ecosystem services values in Spain: A meta-analysis
+10.1016/j.envsci.2019.08.021 — Examining concern about climate change and local environmental changes from an ecosystem service perspective in the Western U.S
+10.1016/j.gfs.2025.100829 — Trade-offs for healthy and sustainable diets in Europe: Social-ecological dynamics in an intensive agricultural system
+10.1016/j.gloenvcha.2024.102922 — Applying the Three Horizons approach in local and regional scenarios to support policy coherence in SDG implementation: Insights from arid Spain
+10.1016/j.gloenvcha.2024.102939 — Measuring the contribution of nature-based solutions beyond climate adaptation in cities
+10.1016/j.gloenvcha.2025.102984 — The multifaceted spectra of power − A participatory network analysis on power structures in diverse dryland regions
+10.1016/j.isci.2024.111606 — Communicating the interdependence of human, animal, and environmental health on X (formerly Twitter): Insights from the one health approach
+10.1016/j.jaridenv.2011.05.013 — Social preferences regarding the delivery of ecosystem services in a semiarid Mediterranean region
+10.1016/j.jaridenv.2011.12.006 — The role of vegetation and lithology in the spatial and inter-annual response of EVI to climate in drylands of Southeastern Spain
+10.1016/j.jaridenv.2012.07.015 — A choice experiment study for land-use scenarios in semi-arid watershed environments
+10.1016/j.jaridenv.2015.07.004 — The value of time in biological conservation and supplied ecosystem services: A willingness to give up time exercise
+10.1016/j.jaridenv.2017.09.005 — Ecosystem services provided by biocrusts: From ecosystem functions to social values
+10.1016/j.jaridenv.2018.01.004 — What has ecosystem service science achieved in Spanish drylands? Evidences of need for transdisciplinary science
+10.1016/j.jaridenv.2018.09.006 — Ecosystem services in dryland systems of the world
+10.1016/j.jaridenv.2023.105023 — Diverse values of nature shape human connection to dryland landscapes in Spain
+10.1016/j.jaridenv.2025.105354 — Leveraging agrobiodiversity for sustainable transition in greenhouse-based intensive agriculture across Mediterranean drylands
+10.1016/j.jenvman.2020.111528 — Mercury consumption and human health: Linking pollution and social risk perception in the southeastern United States
+10.1016/j.landurbplan.2014.08.009 — Ecosystem service trade-offs from supply to social demand: A landscape-scale spatial analysis
+10.1016/j.landurbplan.2022.104673 — Human population growth and accessibility from cities shape rangeland condition in the American West
+10.1016/j.landurbplan.2023.104988 — A methodological approach for integrating human emotions in protected areas management: Insights from SE Spain
+10.1016/j.landusepol.2016.03.011 — Impacts of land use change on ecosystem services and implications for human well-being in Spanish drylands
+10.1016/j.landusepol.2017.04.040 — Delineating boundaries of social-ecological systems for landscape planning: A comprehensive spatial approach
+10.1016/j.landusepol.2019.04.029 — Implications of urban growth and farmland loss for ecosystem services in the western United States
+10.1016/j.landusepol.2022.106053 — Effects of land abandonment on nature contributions to people and good quality of life components in the Mediterranean region: A review
+10.1016/j.landusepol.2023.106921 — Land transformation changes people´s values of ecosystem services in Las Vegas agrarian landscapes of Madrid Spain
+10.1016/j.nbt.2020.11.010 — Bioeconomy as a transforming driver of intensive greenhouse horticulture in SE Spain
+10.1016/j.ocecoaman.2023.106854 — Understanding socioecological interaction networks in Marine Protected Areas to inform management
+10.1016/j.ocecoaman.2024.107474 — Participatory mapping of uses and ecosystem services as a useful tool for the identification of conflicts in Marine Protected Areas: The case of the Cíes Islands archipelago (NW Spain)
+10.1016/j.resconrec.2021.105782 — Social indicators of ecosystem restoration for enhancing human wellbeing
+10.1016/j.rse.2022.113414 — Tradeoffs in forest resilience to satellite-based estimates of water and productivity losses
+10.1016/j.tfp.2023.100473 — Integrating perennial staple food crops in agroforestry systems: A case study of chestnut (Castanea sp.) in Germany
+10.1017/s0376892923000322 — Relational values shape people’s connectedness to nature in a former military protected area of Ecuador
+10.1017/sus.2020.4 — Telecoupling through tomato trade: what consumers do not know about the tomato on their plate
+10.1017/sus.2025.6 — Unraveling deep roots in drylands: a systems thinking participatory approach to SDGs
+10.1038/s41586-023-06406-9 — Diverse values of nature for sustainability
+10.1038/s41893-022-01036-x — Global mapping of urban nature-based solutions for climate change adaptation
+10.1038/s43016-022-00612-w — Landscape products for sustainable agricultural landscapes
+10.1038/s44168-025-00225-6 — Artificial intelligence, digital social networks, and climate emotions
+10.1039/c3em00329a — Priority organic compounds in wastewater effluents from the Mediterranean and Atlantic basins of Andalusia (Spain)
+10.1061/(asce)wr.1943-5452.0000671 — Willingness to Pay for Ecosystem Services among Stakeholder Groups in a South-Central U.S. Watershed with Regional Conflict
+10.1080/01431161.2018.1466080 — Trends in vegetation greenness dynamics in protected areas across borders: what are the environmental controls?
+10.1080/09640568.2024.2422526 — Which landscape do you prefer? The role of emotions on choices for landscape management
+10.1080/26395916.2019.1667875 — Evaluating social learning in participatory mapping of ecosystem services
+10.1080/26395916.2021.1912185 — Participatory collective farming as a leverage point for fostering human-nature connectedness
+10.1080/26395916.2021.1912186 — Disentangling the complexity of socio-cultural values of temporary rivers
+10.1080/26395916.2022.2133173 — The programme on ecosystem change and society (PECS) – a decade of deepening social-ecological research through a place-based focus
+10.1080/26395916.2023.2288953 — Co-production of nature’s contributions to people in dry rivers: a case study in Murcia, Spain
+10.1080/26395916.2025.2478568 — A social assessment of ecosystem services: a comparative stakeholder analysis of the Portneuf River Watershed, Idaho
+10.1088/1748-9326/aae5e3 — Modeling how land use legacy affects the provision of ecosystem services in Mediterranean southern Spain
+10.1088/1748-9326/ab4562 — The American West as a social-ecological region: drivers, dynamics and implications for nested social-ecological systems
+10.1088/1748-9326/ab5485 — Human-carnivore relations: conflicts, tolerance and coexistence in the American West
+10.1088/1748-9326/ab60e1 — Integrated spatial analysis for human–wildlife coexistence in the American West
+❌ Error con DOI 10.1101/2020.04.21.052894: list index out of range
+10.1109/igarss.2018.8517296 — Satellite Remote Sensing of Ecosystem Functions: Opportunities and Challenges for Reporting Obligations of the EU Habitat Directive
+10.1111/1752-1688.12379 — Social Demand for Ecosystem Services and Implications for Watershed Management
+10.1111/gcb.14728 — Integrating anthropogenic factors into regional‐scale species distribution models—A novel application in the imperiled sagebrush biome
+10.1111/ibi.12953 — Intra‐specific variation in migration phenology of American Kestrels (<i>Falco sparverius</i>) in response to spring temperatures
+10.1371/journal.pone.0172107 — Remote-sensing based approach to forecast habitat quality under climate change scenarios
+10.1371/journal.pone.0232648 — Climatic drivers of Verticillium dahliae occurrence in Mediterranean olive-growing areas of southern Spain
+10.24310/abm.v40i0.2550 — Confirmación de cita histórica para Acarospora schleicheri (Ach.) A, Massai (Acarosporaceae) en Almería
+10.3389/fsufs.2021.787045 — Linking Cork to Cork Oak Landscapes: Mapping the Value Chain of Cork Production in Portugal
+10.3390/agriculture12040457 — Nature’s Contributions to People Shape Sense of Place in the Coffee Cultural Landscape of Colombia
+10.3390/agriculture12040522 — A Transformative (r)Evolution of the Research on Agriculture through Fostering Human-Nature Connectedness—A Special Issue Editorial
+10.3390/agronomy12112778 — Farmers’ Knowledge and Acceptance of Microalgae in Almería Greenhouse Horticulture
+10.3390/ijerph16214097 — Six Collective Challenges for Sustainability of Almería Greenhouse Horticulture
+10.3390/land9090330 — Local Perceptions of Ecosystem Services Across Multiple Ecosystem Types in Spain
+10.3390/su10051516 — Applying Place-Based Social-Ecological Research to Address Water Scarcity: Insights for Future Research
+10.3390/su12030819 — Revisiting a Water Conflict in Southeastern Oklahoma 6 Years Later: A New Valuation of the Willingness to Pay for Ecosystem Services
+10.4995/raet.2016.5731 — Sistema para el Seguimiento del funcionamiento de ecosistemas en la Red de Parques Nacionales de España mediante Teledetección
+❌ Error con DOI 10.5194/essd-2024-431: list index out of range
+❌ Error con DOI 10.5194/essd-2024-431-supplement: list index out of range
+❌ Error con DOI 10.5281/zenodo.10044206: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.10044207: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.10046347: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.10046348: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.10046387: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.10046388: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.10046427: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.10046428: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.14222861: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.14222862: Error: 404 - Resource not found.
+❌ Error con DOI 10.5281/zenodo.6522392: Error: 404 - Resource not found.
+10.5751/es-07785-200339 — Biophysical and sociocultural factors underlying spatial trade-offs of ecosystem services in semiarid watersheds
+10.5751/es-10226-230303 — Social-ecological systems influence ecosystem service perception: a Programme on Ecosystem Change and Society (PECS) analysis
+10.5751/es-15249-290309 — Carnivores’ contributions to people in Europe
+10.5751/es-15513-290419 — Assessing the delivery of ecosystem services and benefits to human well-being of three contrasting MPAs in Spain
+10.5772/59280 — Social Perception and Supply of Ecosystem Services — A Watershed Approach for Carbon Related Ecosystem Services
+10.7325/galemys.2015.a3 — Hábitos alimenticios del tejón europeo en un paisaje árido mediterráneo de la provincia de Almería (SE de España)
+10.7818/ecos.1936 — How can feminist and postcolonial science studies contribute to knowledge co-production? Insights for IPBES
+10.7818/ecos.2502 — Repensar la conexión con la naturaleza a través de las emociones
+10.7818/ecos.2737 — Análisis de la diversidad biocultural en la cuenca Mediterránea: una revisión sistemática de la literatura
